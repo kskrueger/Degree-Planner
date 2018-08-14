@@ -21,7 +21,7 @@ public class ImportAllCourses {
         for (int i = 0; i < allCourses.length; i++) {
             out[i][0] = allCourses[i];
         }
-        csvWrite.saveRaw(out,"src/com/kskrueger/college/data/Courses/AllCourses.csv");
+        csvWrite.saveRaw(out,"src/com/kskrueger/college/data/Courses/AllCourses3.csv");
     }
 
     private static void writeArray(String filename, String[] x) throws IOException {

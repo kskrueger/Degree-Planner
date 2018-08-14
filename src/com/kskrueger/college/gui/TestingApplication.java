@@ -19,7 +19,6 @@ public class TestingApplication extends Application {
         stage.show();
     }
 
-
     public void load() {
 
     }

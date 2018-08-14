@@ -1,9 +1,6 @@
 package com.kskrueger.college.util.data;
 
 import com.kskrueger.college.util.Website;
-import com.sun.istack.internal.NotNull;
-import com.sun.istack.internal.Nullable;
-import org.apache.commons.lang3.ObjectUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,10 +32,10 @@ class FetchCatalogCourses {
     }
 
     public String[] pullCourses() {
-        String sem = "#courseinventorycontainer > div > div:nth-child(5) > div.courseblockdesc.accordion-content > p.credits.noindent";
+        /*String sem = "#courseinventorycontainer > div > div:nth-child(5) > div.courseblockdesc.accordion-content > p.credits.noindent";
         String prereq = "#courseinventorycontainer > div > div:nth-child(5) > div.courseblockdesc.accordion-content > p.prereq > em";
         String description = "#courseinventorycontainer > div > div:nth-child(5) > div.courseblockdesc.accordion-content > p.prereq > br";
-        String title = "#courseinventorycontainer > div > div:nth-child(5) > div.courseblocktitle > a > strong";
+        String title = "#courseinventorycontainer > div > div:nth-child(5) > div.courseblocktitle > a > strong";*/
 
         ArrayList<String> courseOutput = new ArrayList<>();
         String xpath;
