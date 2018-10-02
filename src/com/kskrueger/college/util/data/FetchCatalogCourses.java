@@ -44,7 +44,7 @@ class FetchCatalogCourses {
                 xpath = course.getText("#courseinventorycontainer > div > div:nth-child("+i+") > div.courseblockdesc.accordion-content > p.prereq > br");
                 xpath = xpath.substring(0,xpath.indexOf(":"));
                 courseOutput.add(xpath);
-                System.out.println(xpath);
+                //System.out.println(xpath);
             } catch (NullPointerException e) {
                 //System.out.println(i + ": null");
                 //e.printStackTrace();

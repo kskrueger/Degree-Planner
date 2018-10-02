@@ -63,8 +63,7 @@ public class PreReqParsing {
             }
         }
 
-        System.out.println(prereqs);
-        System.out.println("Compute time: "+(System.currentTimeMillis()-start));
+        //System.out.println(prereqs);
         return prereqs;
     }
 

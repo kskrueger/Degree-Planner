@@ -75,6 +75,13 @@ public class Course {
         return website.getText("#fssearchresults > div:nth-child(1) > div > div > p.credits.noindent");
     }
 
+    public String getCredits() {
+        int crIndex = getSemesterString().indexOf("Cr. ")+4;
+        String substring = getSemesterString().substring(crIndex);
+        int dotIndex = substring.indexOf(".");
+        return substring.substring(0,dotIndex);
+    }
+
     public Semester getSemester() {
         if (availableFall()) {
             if (availableSpring()) {return Semester.BOTH;}

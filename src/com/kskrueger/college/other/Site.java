@@ -1,15 +1,14 @@
-package com.kskrueger.college.util;
+package com.kskrueger.college.other;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 
 import java.io.IOException;
 
-public class Website {
+class Site {
     private Document site;
 
-    public Website(String url) {
+    Site(String url) {
         try {
             site = Jsoup.connect(url).get();
         } catch (IOException e) {
@@ -18,12 +17,12 @@ public class Website {
         }
     }
 
-    public String getText(String path) {
+    String getText(String path) {
         try {
             return site.select(path).first().text();
         } catch (NullPointerException e) {
             e.printStackTrace();
-            System.out.println("PAGE DOES NOT EXIST! RIPPPP");
+            System.out.println("DOES NOT EXIST!");
             return "";
         }
     }

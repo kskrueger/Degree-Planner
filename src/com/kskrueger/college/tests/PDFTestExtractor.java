@@ -31,6 +31,8 @@ public class PDFTestExtractor extends Component {
         }
     }
 
+    //TODO Add search for the word after detected courses, to solve issues like this -> "ENGL 309 or 314"; idea: generate alternative map option (or maybe pop-up, eh)
+
     private static CSVRead csvRead = new CSVRead("src/com/kskrueger/college/data/Courses/AllCourses2.csv");
     private static CSVWrite csvWriteOut = new CSVWrite();
 
