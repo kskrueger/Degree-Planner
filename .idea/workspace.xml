@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2db53bc2-8e24-496d-8c85-0bcf0a72d1d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DragDrop1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DragGroupSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggableNodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/FxDragDropExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/other/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kskrueger/college/other/Site.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="2db53bc2-8e24-496d-8c85-0bcf0a72d1d3" name="Default Changelist" comment="Add git ignore">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/gui/TestingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/gui/TestingApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/PDFTestExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/PDFTestExtractor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/Website.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/Website.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/FetchCatalogCourses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/FetchCatalogCourses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/PreReqParsing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/PreReqParsing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/tests/PDFTestExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/tests/PDFTestExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/util/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/util/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/util/Website.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/util/Website.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/util/data/FetchCatalogCourses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/util/data/FetchCatalogCourses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/util/data/PreReqParsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/util/data/PreReqParsing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,29 +37,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="CoursesExport" value="1" />
-          <entry key="class" value="2" />
+          <entry key="class" value="3" />
           <entry key="csv" value="7" />
           <entry key="fxml" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="3" />
           <entry key="CSV" value="6" />
           <entry key="JAVA" value="25" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3653" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="3861" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3653" />
+          <entry key="JAVA" value="3861" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -120,14 +103,37 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+            <state relative-caret-position="206">
+              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#makeDraggable#0;class#DraggablePanelV1#0" />
+                <element signature="method#makeDraggableGrid#0;class#DraggablePanelV1#0" />
                 <element signature="method#configureBorder#0;class#DraggablePanelV1#0" />
                 <element signature="method#createHBox#0;class#DraggablePanelV1#0" />
                 <element signature="method#createVBox#0;class#DraggablePanelV1#0" />
                 <element signature="class#DragContext#0;class#DraggablePanelV1#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DragGroupSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,8 +154,8 @@
       <find>karter</find>
       <find>time</find>
       <find>resize</find>
-      <find>start</find>
       <find>print</find>
+      <find>start</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/com/kskrueger/college/gui/TestShapeDrag.java" />
         <option value="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DragGroupSample.java" />
         <option value="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelExample.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java" />
       </list>
     </option>
@@ -187,7 +194,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -208,65 +215,6 @@
               <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="dragable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Degree-Planner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Degree-Planner" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="college" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="maps" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -280,9 +228,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538450074174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538530318179" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -422,13 +373,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46873000" />
+    <option name="totallyTimeSpent" value="50139000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1929182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1929182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,11 +397,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.169279" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48693836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291536" />
@@ -576,51 +536,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggableNodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#3980#3981#0" expanded="true" />
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4319#4320#0" expanded="true" />
-            <element signature="e#4378#4379#0" expanded="true" />
-            <element signature="e#4527#4528#0" expanded="true" />
-            <element signature="e#4586#4587#0" expanded="true" />
-            <element signature="e#4733#4734#0" expanded="true" />
-            <element signature="e#4789#4790#0" expanded="true" />
-            <element signature="e#4939#4940#0" expanded="true" />
-            <element signature="e#4999#5000#0" expanded="true" />
-            <element signature="e#4003#4004#0" expanded="true" />
-            <element signature="e#4049#4050#0" expanded="true" />
-            <element signature="e#7751#7752#0" expanded="true" />
-            <element signature="e#7820#7821#0" expanded="true" />
-            <element signature="e#7865#7866#0" expanded="true" />
-            <element signature="e#7904#7905#0" expanded="true" />
-            <element signature="e#7949#7950#0" expanded="true" />
-            <element signature="e#7988#7989#0" expanded="true" />
-            <element signature="e#8018#8019#0" expanded="true" />
-            <element signature="e#8075#8076#0" expanded="true" />
-            <element signature="e#8105#8106#0" expanded="true" />
-            <element signature="e#8162#8163#0" expanded="true" />
-            <element signature="e#8192#8193#0" expanded="true" />
-            <element signature="e#8250#8251#0" expanded="true" />
-            <element signature="e#8280#8281#0" expanded="true" />
-            <element signature="e#8339#8340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/other/PeopleSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggableNodeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/other/PeopleSearch.java" />
     <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/other/Site.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -641,12 +558,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DragGroupSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -658,52 +573,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="209" column="54" lean-forward="true" selection-start-line="209" selection-start-column="54" selection-end-line="209" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6728#6736#0" expanded="true" />
-            <element signature="e#7752#7753#0" expanded="true" />
-            <element signature="e#7819#7820#0" expanded="true" />
-            <element signature="e#8018#8019#0" expanded="true" />
-            <element signature="e#8085#8086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/FxDragDropExample1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#5499#5506#0" expanded="true" />
-            <element signature="e#7104#7134#0" expanded="true" />
-            <element signature="e#9065#9066#0" expanded="true" />
-            <element signature="e#9121#9122#0" expanded="true" />
-            <element signature="e#9306#9307#0" expanded="true" />
-            <element signature="e#9338#9339#0" expanded="true" />
-            <element signature="e#9373#9374#0" expanded="true" />
-            <element signature="e#9400#9401#0" expanded="true" />
-            <element signature="e#9444#9445#0" expanded="true" />
-            <element signature="e#9476#9477#0" expanded="true" />
-            <element signature="e#9526#9527#0" expanded="true" />
-            <element signature="e#9553#9554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DragDrop1.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/FxDragDropExample1.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DragDrop1.fxml" />
     <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/util/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
@@ -711,12 +583,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/gui/dragable/DraggablePanelV1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#8365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+        <state relative-caret-position="206">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#makeDraggable#0;class#DraggablePanelV1#0" />
+            <element signature="method#makeDraggableGrid#0;class#DraggablePanelV1#0" />
             <element signature="method#configureBorder#0;class#DraggablePanelV1#0" />
             <element signature="method#createHBox#0;class#DraggablePanelV1#0" />
             <element signature="method#createVBox#0;class#DraggablePanelV1#0" />
@@ -725,5 +615,80 @@
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Degree-Planner</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
