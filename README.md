@@ -1,1 +1,2 @@
-# Degree-Planner
+**Degree-Planner**
+---------------------

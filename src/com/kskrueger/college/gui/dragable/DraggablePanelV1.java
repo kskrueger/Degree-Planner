@@ -2,9 +2,7 @@ package com.kskrueger.college.gui.dragable;
 
 import com.kskrueger.college.util.Course;
 import javafx.application.Application;
-import javafx.beans.binding.Bindings;
 import javafx.beans.property.*;
-import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -12,22 +10,23 @@ import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
-import java.util.ArrayList;
-import java.util.EventListener;
-
 public class DraggablePanelV1 extends Application {
     private final BooleanProperty dragModeActiveProperty = new SimpleBooleanProperty(
             this, "dragModeActive", true);
-    private static final IntegerProperty totalCredits = new SimpleIntegerProperty();
+    private static final IntegerProperty totalCredits = new SimpleIntegerProperty(0);
 
     @Override
     public void start(final Stage stage) {
         final Node coursePanel = makeDraggable(createCoursePanel(),200,100);
+        coursePanel.relocate(50,0);
 
         final Pane panelsPane = new Pane();
         panelsPane.getChildren().addAll(coursePanel);
@@ -45,6 +44,7 @@ public class DraggablePanelV1 extends Application {
             public void handle(ActionEvent event) {
                 System.out.println("Course added");
                 Node newCourse = makeDraggable(createCoursePanel(), 200, 100);
+                newCourse.relocate(50,0);
                 panelsPane.getChildren().add(newCourse);
             }
         });
@@ -57,6 +57,11 @@ public class DraggablePanelV1 extends Application {
         sceneRoot.setBottom(bottomBox);
 
         dragModeActiveProperty.bind(dragModeCheckbox.selectedProperty());
+
+        // TODO: 10/2/18 add side label boxes
+
+        //final VBox sideBar = createVBox(6, );
+        //sideBar.setAlignment(Pos.TOP_LEFT);
 
         final Scene scene = new Scene(sceneRoot, 1200, 800);
         stage.setScene(scene);
@@ -173,9 +178,9 @@ public class DraggablePanelV1 extends Application {
                 System.out.println("Course updated");
                 System.out.println(prevCourse.credits);
                 int credits = Integer.parseInt(course.getCredits());
+                //int value = (int)Double.parseDouble(totalCredits.getValue());
+                totalCredits.setValue(totalCredits.getValue()-prevCourse.credits+credits);
                 prevCourse.credits = credits;
-                int value = totalCredits.getValue();
-                totalCredits.setValue(value-prevCourse.credits+credits);
             }
         });
 
@@ -211,6 +216,6 @@ public class DraggablePanelV1 extends Application {
     }
 
     private static class PrevCourse {
-        public double credits;
+        public int credits;
     }
 }
