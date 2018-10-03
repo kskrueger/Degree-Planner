@@ -1,50 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2db53bc2-8e24-496d-8c85-0bcf0a72d1d3" name="Default Changelist" comment="Add git ignore">
+    <list default="true" id="2db53bc2-8e24-496d-8c85-0bcf0a72d1d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/Audits/CS Audit.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/Audits/Computer Engineering Audit.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/Courses/AllCourses.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/Courses/AllCourses2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/Courses/Departments.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/degrees/Computer Engineering Reqs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/gui/Testing.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/gui/TestingApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/gui/TestingController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/gui/TestingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/Departments.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/PDFTestExtractor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/TestDagSortCourses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/TestPdfReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/TestReadArrayFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/tests/testing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/Course$Semester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/Website.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/csv/ArrayLogging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/csv/CSVConvert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/csv/CSVRead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/csv/CSVWrite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/csv/TransposeCSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/FetchAllPrereqs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/FetchCatalogCourses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/ImportAllCourses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/ParseDepartments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/PreReqParsing$SortByIndex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/PreReqParsing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/maps/CourseMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/maps/NodeMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/maps/ReadMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/data/maps/SaveMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/sorting/DagGraphDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/sorting/DirectedAcrylicGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/sorting/Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/sorting/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/util/sorting/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/degrees/Computer Engineering Reqs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Degree-Planner/com/kskrueger/college/data/degrees/Computer Engineering Reqs.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,14 +59,14 @@
           <entry key="gitignore" value="2" />
           <entry key="java" value="3927" />
           <entry key="md" value="24" />
-          <entry key="txt" value="18" />
+          <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3927" />
           <entry key="Markdown" value="24" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="PLAIN_TEXT" value="35" />
         </counts>
       </usages-collector>
     </session>
@@ -147,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="221">
+              <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#makeDraggable#0;class#DraggablePanelV1#0" />
@@ -264,7 +223,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538531574581" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538539955364" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -413,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538530351067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Remove out">
+      <created>1538536292139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538536292139</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51123000" />
+    <option name="totallyTimeSpent" value="51451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,6 +396,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1929182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -495,7 +462,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add git ignore" />
+    <MESSAGE value="Remove out" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove out" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CoursesExport">
@@ -684,8 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kskrueger/college/gui/dragable/DraggablePanelV1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="221">
+          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#makeDraggable#0;class#DraggablePanelV1#0" />
