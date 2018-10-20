@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Course {
-    private transient Website website;
+    private Website website;
     private String url;
     private String courseInput;
     public List<List<String>> prereqs = new ArrayList<>();

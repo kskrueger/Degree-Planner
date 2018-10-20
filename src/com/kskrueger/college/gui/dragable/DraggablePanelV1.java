@@ -37,6 +37,7 @@ public class DraggablePanelV1 extends Application {
         sceneRoot.setCenter(panelsPane);
 
         final CheckBox dragModeCheckbox = new CheckBox("Drag mode");
+        dragModeCheckbox.setSelected(true);
 
         final Button addButton = new Button("Add Course");
         addButton.setOnAction(new EventHandler<ActionEvent>() {
@@ -65,7 +66,7 @@ public class DraggablePanelV1 extends Application {
 
         final Scene scene = new Scene(sceneRoot, 1200, 800);
         stage.setScene(scene);
-        stage.setTitle("Draggable Panels Example");
+        stage.setTitle("Course Planner UI");
         stage.show();
     }
 
@@ -166,6 +167,7 @@ public class DraggablePanelV1 extends Application {
         final TextField courseInput = new TextField();
         final Label courseNameLabel = new Label("Name: ");
         final Label courseCreditsLabel = new Label("Credits: ");
+        final Label coursePreReqsLabel = new Label("PreReqs: ");
         final PrevCourse prevCourse = new PrevCourse();
 
         courseInput.setPromptText("Enter a course number");
@@ -175,6 +177,7 @@ public class DraggablePanelV1 extends Application {
                 Course course = new Course(courseInput.getText());
                 courseNameLabel.setText(course.getRealName());
                 courseCreditsLabel.setText(course.getCredits());
+                coursePreReqsLabel.setText(course.getPrereqs());
                 System.out.println("Course updated");
                 System.out.println(prevCourse.credits);
                 int credits = Integer.parseInt(course.getCredits());
@@ -184,7 +187,7 @@ public class DraggablePanelV1 extends Application {
             }
         });
 
-        final VBox panel = createVBox(6, courseInput, courseNameLabel, courseCreditsLabel);
+        final VBox panel = createVBox(6, courseInput, courseNameLabel, courseCreditsLabel,coursePreReqsLabel);
         panel.setAlignment(Pos.CENTER_LEFT);
         configureBorder(panel);
 

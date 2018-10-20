@@ -1,5 +1,6 @@
 package com.kskrueger.college.util.sorting;
 
+import com.kskrueger.college.util.Course;
 import com.kskrueger.college.util.data.maps.CourseMap;
 import com.kskrueger.college.util.data.maps.NodeMap;
 import com.kskrueger.college.util.data.maps.ReadMap;
@@ -65,17 +66,18 @@ public class DirectedAcrylicGraph {
     }
 
     public static void main(String[] args) {
-        ReadMap courseMapReader = new ReadMap(); System.out.println("line 68");
-        CourseMap coursemap = courseMapReader.readCourseMap("courseMap"); System.out.println("line 69");
-        //ReadMap nodeMapReader = new ReadMap(); System.out.println("line 70");
-        //NodeMap nodeMap = nodeMapReader.readNodeMap("nodeMap"); System.out.println("line 71");
-        NodeMap nodeMap = new NodeMap();
+        ReadMap courseMapReader = new ReadMap();
+        CourseMap coursemap = courseMapReader.readCourseMap("courseMap");
+        ReadMap nodeMapReader = new ReadMap();
+        NodeMap nodeMap = nodeMapReader.readNodeMap("nodeMap");
+        //NodeMap nodeMap = new NodeMap();
 
         String[] courses = {"Com S 207","Com S 230","Com S 309","Cpr E 185","Math 165"}; System.out.println("line 73");
 
         for (String course : courses) {
             //coursemap.keySet()
-            System.out.println(course+": "+coursemap.get(course).prereqs); System.out.println("line 76");
+            //Course newCourse = nodeMap.get(course).course;
+            System.out.print(course+": "+nodeMap.get(course).nameS);
 
             Node node = nodeMap.get(course); System.out.println("line 78");
 
