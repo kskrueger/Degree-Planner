@@ -7,8 +7,8 @@ import java.util.HashSet;
 public class Node {
         public String nameS;
         public Course course;
-        final HashSet<Edge> inEdges;
-        final HashSet<Edge> outEdges;
+        public final HashSet<Edge> inEdges;
+        public final HashSet<Edge> outEdges;
         private boolean courseMode = false;
 
         public Node(Course course) {

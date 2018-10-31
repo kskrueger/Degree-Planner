@@ -16,7 +16,7 @@ public class ReadMap {
         //System.out.println(courseMap.get("COM S 252").prereqs);
 
         nodeMap = readNodeMap("testNodeMap");
-        System.out.println(nodeMap.get("Com S 207").course.getCourseNumber());
+        System.out.println(nodeMap.get("Com S 207").course.prereqs);
         //courseMap = readCourseMap("courseMap");
         //System.out.println(courseMap.get("Com S 207").getRealName());
 

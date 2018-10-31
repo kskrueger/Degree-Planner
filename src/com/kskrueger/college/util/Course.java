@@ -8,17 +8,31 @@ import java.util.List;
 import java.util.Objects;
 
 public class Course {
-    private Website website;
+    private transient Website website;
     private String url;
     private String courseInput;
-    public List<List<String>> prereqs = new ArrayList<>();
+    public List<List<String>> prereqs;
+    public String courseNumber, fullName, realName, dept, number, description, semesterString, credits;
+    public Boolean availFall, availSpring;
+
+    //List<List<String>> PrereqsArrayList;
 
     public Course(String courseNumber) {
         courseInput = courseNumber;
         this.url = "http://catalog.iastate.edu/search/?P="+courseNumber;
         this.website = new Website(url);
 
-        prereqs = getPrereqsArrayList(getPrereqs());
+        this.courseNumber = courseNumber;
+        this.fullName = getFullName();
+        this.prereqs = getPrereqsArrayList(getPrereqs());
+        this.realName = getRealName();
+        //this.dept = getDept();
+        //this.number = getNumber();
+        //this.description = getDescription();
+        //this.semesterString = getSemesterString();
+        this.credits = getCredits();
+        this.availFall = availableFall();
+        this.availSpring = availableSpring();
     }
 
     enum Semester {SPRING, FALL, BOTH, UNKNOWN}
@@ -42,7 +56,11 @@ public class Course {
 
     public String getRealName() {
         int colonPosition = getFullName().indexOf(":");
-        return getFullName().substring(colonPosition+2);
+        if ((colonPosition+2) > 0) {
+            return getFullName().substring(colonPosition+2);
+        } else {
+            return "??? ERROR";
+        }
     }
 
     public String getDept() {
@@ -56,13 +74,14 @@ public class Course {
     }
 
     public String getPrereqs() {
-        String str = website.getText("#fssearchresults > div:nth-child(1) > div > div > p.prereq");
+        String str = website.getText("#fssearchresults > div:nth-child(1) > div > div > p.prereq > em");
         if (Objects.equals(str, "")) {
             return "";
         }
-        int startPos = str.indexOf(":")+2;
+        //int startPos = str.indexOf("");
         //int endPos = str.indexOf(".");
-        return str.substring(startPos);
+        //return str.substring(startPos);
+        return str;
     }
 
     public String getDescription() {
