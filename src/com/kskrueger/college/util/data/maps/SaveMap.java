@@ -15,12 +15,12 @@ public class SaveMap {
     private static CourseMap courseMap = new CourseMap();
     private static NodeMap nodeMap = new NodeMap();
 
-    private static String[] courses = {"Com S 207","Com S 230","Com S 309","Cpr E 185","Math 165"};
+    private static String[] courses = {"Com S 207","Com S 227","Com S 230","Com S 309","Cpr E 185","Math 165","Math 150","Math 140","Engl 150","Math 143"};
 
     //static CSVRead csvRead = new CSVRead("src/com/kskrueger/college/data/Courses/AllCourses2.csv");
 
     public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
+        //long startTime = System.currentTimeMillis();
 
         //courses = csvRead.readArray;
 
@@ -36,15 +36,15 @@ public class SaveMap {
         //save(nodeMap,"nodeMap");
 
         for (String courseName : courses) {
-            System.out.println("Course: "+courseName);
+            //System.out.println("Course: "+courseName);
             Course course = new Course(courseName);
             Node node = new Node(course);
-            nodeMap.put(courseName,node);
+            nodeMap.put(courseName.toUpperCase(),node);
         }
 
         save(nodeMap,"testNodeMap");
 
-        System.out.println("Total time: "+(System.currentTimeMillis()-startTime));
+        //System.out.println("Total time: "+(System.currentTimeMillis()-startTime));
     }
 
     private static void save(HashMap map, String fileName) {

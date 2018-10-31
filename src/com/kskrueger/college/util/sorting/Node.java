@@ -5,14 +5,14 @@ import com.kskrueger.college.util.Course;
 import java.util.HashSet;
 
 public class Node {
-        private String nameS;
-        transient private Course name;
-        final HashSet<Edge> inEdges;
-        final HashSet<Edge> outEdges;
+        public String nameS;
+        public Course course;
+        public final HashSet<Edge> inEdges;
+        public final HashSet<Edge> outEdges;
         private boolean courseMode = false;
 
         public Node(Course course) {
-            this.name = course;
+            this.course = course;
             this.nameS = course.getCourseNumber();
             inEdges = new HashSet<Edge>();
             outEdges = new HashSet<Edge>();
@@ -36,7 +36,7 @@ public class Node {
         public String toString() {
             return nameS;
             /*if (courseMode) {
-                return name.getCourseNumber();
+                return course.getCourseNumber();
             } else {
                 return nameS;
             }*/

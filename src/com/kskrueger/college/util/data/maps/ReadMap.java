@@ -16,8 +16,9 @@ public class ReadMap {
         //System.out.println(courseMap.get("COM S 252").prereqs);
 
         nodeMap = readNodeMap("testNodeMap");
-
-        System.out.println(nodeMap.get("Com S 207").toString());
+        System.out.println(nodeMap.get("Com S 207").course.prereqs);
+        //courseMap = readCourseMap("courseMap");
+        //System.out.println(courseMap.get("Com S 207").getRealName());
 
     }
 
@@ -56,7 +57,7 @@ public class ReadMap {
         }
 
         Gson gson = new Gson();
-        return gson.fromJson(contents,NodeMap.class);
+        return gson.fromJson(contents, NodeMap.class);
     }
 }
 

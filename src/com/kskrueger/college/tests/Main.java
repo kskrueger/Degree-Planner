@@ -1,4 +1,4 @@
-package com.kskrueger.college;
+package com.kskrueger.college.tests;
 
 import com.kskrueger.college.util.Course;
 

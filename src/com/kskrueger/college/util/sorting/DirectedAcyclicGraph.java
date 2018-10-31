@@ -1,17 +1,16 @@
 package com.kskrueger.college.util.sorting;
 
+import com.kskrueger.college.util.Course;
 import com.kskrueger.college.util.data.maps.CourseMap;
 import com.kskrueger.college.util.data.maps.NodeMap;
 import com.kskrueger.college.util.data.maps.ReadMap;
 
 import java.util.*;
 
-public class DirectedAcrylicGraph {
-
-    //public static Node[] allNodes;
+public class DirectedAcyclicGraph {
     public static ArrayList<Node> allNodes = new ArrayList<>();
 
-    public DirectedAcrylicGraph(/*Node[] nodes*/ ArrayList<Node> nodes) {
+    public DirectedAcyclicGraph(ArrayList<Node> nodes) {
         allNodes = nodes;
     }
 
@@ -65,36 +64,27 @@ public class DirectedAcrylicGraph {
     }
 
     public static void main(String[] args) {
-        ReadMap courseMapReader = new ReadMap(); System.out.println("line 68");
-        CourseMap coursemap = courseMapReader.readCourseMap("courseMap"); System.out.println("line 69");
-        //ReadMap nodeMapReader = new ReadMap(); System.out.println("line 70");
-        //NodeMap nodeMap = nodeMapReader.readNodeMap("nodeMap"); System.out.println("line 71");
-        NodeMap nodeMap = new NodeMap();
+        //ReadMap courseMapReader = new ReadMap();
+        //CourseMap coursemap = courseMapReader.readCourseMap("courseMap");
+        ReadMap nodeMapReader = new ReadMap();
+        NodeMap nodeMap = nodeMapReader.readNodeMap("fullCourseMap");
+        //NodeMap nodeMap = new NodeMap();
 
-        String[] courses = {"Com S 207","Com S 230","Com S 309","Cpr E 185","Math 165"}; System.out.println("line 73");
+        String[] courses = {"Math 265","Com S 227","Com S 230","Com S 228","Math 207","Com S 309","Com S 311"};
 
         for (String course : courses) {
-            //coursemap.keySet()
-            System.out.println(course+": "+coursemap.get(course).prereqs); System.out.println("line 76");
+            Node node = nodeMap.get(course.toUpperCase());
 
-            Node node = nodeMap.get(course); System.out.println("line 78");
-
-            if (!allNodes.contains(node)) { System.out.println("line 80");
+            if (!allNodes.contains(node)) {
                 allNodes.add(node);
-                System.out.println(course+": course: line 82: node added to allNodes: "+node);
             }
 
-            for (List<String> list: coursemap.get(course).prereqs) {
-                //Node nodeSub = new Node(list.get(0));
-                //node.addEdge(nodeSub);
-                //allNodes.add(nodeSub);
-
-                Node subNode = nodeMap.get(list.get(0));
-                System.out.println("line 91: list.get(0): "+list.get(0));
+            for (List<String> list: nodeMap.get(course.toUpperCase()).course.prereqs) {
+                String courseHere = list.get(0);
+                Node subNode = nodeMap.get(courseHere.toUpperCase());
 
                 if (!allNodes.contains(subNode)) {
                     allNodes.add(subNode);
-                    System.out.println("line 95: subNode added to allNodes");
                 }
 
                 node.addEdge(subNode);

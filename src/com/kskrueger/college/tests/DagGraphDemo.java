@@ -1,4 +1,7 @@
-package com.kskrueger.college.util.sorting;
+package com.kskrueger.college.tests;
+
+import com.kskrueger.college.util.sorting.Edge;
+import com.kskrueger.college.util.sorting.Node;
 
 import java.util.ArrayList;
 import java.util.Arrays;
